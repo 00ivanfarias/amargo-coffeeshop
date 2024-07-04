@@ -1,0 +1,48 @@
+REFERENCIA PARA LA REALIZACION DE 'COMMITS SEMANTICOS'
+
+ <tipo-de-commit>[alcance/scope]: <descripcion>
+                   [opcional]
+
+
+e.g:
+    
+    feat: add new search feature
+    ^--^  ^--------------------^
+    │     │
+    │     └--> # Descripción de los cambios
+    │
+    └--------> # Tipo del cambio
+
+Convencion de prefijos para etiquetado:
+
+ - feat: Una nueva característica para el usuario.
+ - fix: Arregla un bug que afecta al usuario.
+ x- perf: Cambios que mejoran el rendimiento del sitio.
+ x- build: Cambios en el sistema de build, tareas de despliegue o instalación.
+ x- ci: Cambios en la integración continua.
+ - docs: Cambios en la documentación.
+ x- refactor: Refactorización del código como cambios de nombre de variables o funciones.
+ - style: Cambios de formato, tabulaciones, espacios o puntos y coma, etc; no afectan al usuario.
+ - test: Añade tests o refactoriza uno existente.
+
+
+e.g:
+   utilizando todas las caracteristicas para un commit-semantico
+ 
+   feat(backend): add filter for cars
+   fix(web): remove wrong color
+
+      feat(backend): add filter for cards
+      ^--^ ^-----^   ^-----------------^
+      |    |         |______________________ #breve descripcion
+      |	   | 
+      |    |_________ #alcance del cambio
+      |
+      |____ #prefijo descriptivo
+
+
+
+
+commit -m "" -m ""
+
+
