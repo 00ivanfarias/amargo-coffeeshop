@@ -5,6 +5,78 @@
     
 }
 
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+nav {
+    background-color: #3b141c;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+    margin: 0;
+    
+    
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+
+nav .nav_logo a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#click {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    
+}
+
+nav .nav_logo h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+} 
+
+nav ul li a {
+    display: block;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    border-radius: 30px;
+    
+}
+
+img {
+    max-width: 55px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
 .hero{
     min-height: 100vh;
     background: rgb(243,150,28);
